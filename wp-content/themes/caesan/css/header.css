@@ -1,0 +1,74 @@
+.caesan-menu {
+    background: #334170;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #334170 0%, #404f80 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #334170 0%, #404f80 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #334170 0%, #404f80 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#334170', endColorstr='#404f80', GradientType=0);
+    /* IE6-9 */
+    border-top: 1px #23315f solid;
+    border-bottom: 1px #23315f solid;
+    border-left: 1px #23315f solid;
+    border-right: 1px #415083 solid;
+    height: 120px;
+    padding: 25px 45px !important;
+}
+
+.caesan-menu-container {
+    padding: 0px;
+}
+
+.caesan-fundo-navbar2 {
+    height: 180px;
+}
+
+.fa {
+    font-size: 18px;
+}
+
+.caesan-menuHeader2 {
+    padding: 15px 10px;
+}
+
+@media (max-width: 1199px) {
+    .caesan-menu {
+        padding: 25px 28px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .caesan-menu {
+        padding: 25px 10px !important;
+    }
+    .caesan-menuHeader2 img {
+        height: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .caesan-menu {
+        text-align: center;
+        padding: 12px 10px !important;
+        height: 45px;
+        border-bottom: none;
+    }
+    .caesan-menu span {
+        color: #aebcee !important;
+    }
+    .caesan-menu img {
+        height: 20px;
+    }
+    .caesan-menuHeaderXs .navbar-header {
+        height: 80px;
+        margin-left: -15px
+    }
+    .navbar-brand>img {
+        height: 50px;
+    }
+    .container-nav3 {
+        padding-left: 0px;
+    }
+}

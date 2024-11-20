@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="pt-BR" ng-app="meuApp" style="margin: 0px !important;">
+
+<head>
+    <!-- <title></title> -->
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
+    <!-- <meta http-equiv='cache-control' content='no-cache'> -->
+    <!-- <meta http-equiv='expires' content='0'> -->
+    <!-- <meta http-equiv='pragma' content='no-cache'> -->
+    <title>CAESAN - Caixa de Assistência dos Empregados da Saneago</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Caesan - Caixa de Assistência dos Empregados da Saneago">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="icon" type="image/gif" href="https://www.caesan.com.br/wp-content/themes/caesan/img/favicon.png" />
+    <link href="https://www.caesan.com.br/wp-content/themes/caesan/css/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.caesan.com.br/wp-content/themes/caesan/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="https://www.caesan.com.br/wp-content/themes/caesan/css/responsividade-refactor.css" rel="stylesheet" type="text/css"/> -->
+    <link href="https://www.caesan.com.br/wp-content/themes/caesan/css/header.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.caesan.com.br/wp-content/themes/caesan/css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.caesan.com.br/wp-content/themes/caesan/css/home.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.caesan.com.br/wp-content/themes/caesan/css/login.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.caesan.com.br/wp-content/themes/caesan/css/exclusao-dependentes.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.caesan.com.br/wp-content/themes/caesan/css/portal-beneficiario.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.caesan.com.br/wp-content/themes/caesan/css/loading.css" rel="stylesheet" type="text/css" />
+    <meta name='robots' content='index, follow' />
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/www.caesan.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.5"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(i, n) {
+            var o, s, e;
+
+            function c(e) {
+                try {
+                    var t = {
+                        supportTests: e,
+                        timestamp: (new Date).valueOf()
+                    };
+                    sessionStorage.setItem(o, JSON.stringify(t))
+                } catch (e) {}
+            }
+
+            function p(e, t, n) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                    r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                return t.every(function(e, t) {
+                    return e === r[t]
+                })
+            }
+
+            function u(e, t, n) {
+                switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
+                }
+                return !1
+            }
+
+            function f(e, t, n) {
+                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"),
+                    a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
+                    o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+                return e.forEach(function(e) {
+                    o[e] = t(a, e, n)
+                }), o
+            }
+
+            function t(e) {
+                var t = i.createElement("script");
+                t.src = e, t.defer = !0, i.head.appendChild(t)
+            }
+            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, e = new Promise(function(e) {
+                i.addEventListener("DOMContentLoaded", e, {
+                    once: !0
+                })
+            }), new Promise(function(t) {
+                var n = function() {
+                    try {
+                        var e = JSON.parse(sessionStorage.getItem(o));
+                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                    } catch (e) {}
+                    return null
+                }();
+                if (!n) {
+                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                        var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));",
+                            r = new Blob([e], {
+                                type: "text/javascript"
+                            }),
+                            a = new Worker(URL.createObjectURL(r), {
+                                name: "wpTestEmojiSupports"
+                            });
+                        return void(a.onmessage = function(e) {
+                            c(n = e.data), a.terminate(), t(n)
+                        })
+                    } catch (e) {}
+                    c(n = f(s, u, p))
+                }
+                t(n)
+            }).then(function(e) {
+                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+                    n.DOMReady = !0
+                }
+            }).then(function() {
+                return e
+            }).then(function() {
+                var e;
+                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+            }))
+        }((window, document), window._wpemojiSettings);
+        /* ]]> */
+    </script>
+    <style id='wp-emoji-styles-inline-css' type='text/css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='https://www.caesan.com.br/wp-includes/css/dist/block-library/style.min.css?ver=6.4.5' type='text/css' media='all' />
+    <style id='classic-theme-styles-inline-css' type='text/css'>
+        /*! This file is auto-generated */
+
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css' type='text/css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='stylesheet' id='bootstrap-css-css' href='https://www.caesan.com.br/wp-content/themes/caesan/inc/bootstrap.min.css?ver=3.3.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='caesan-style-css' href='https://www.caesan.com.br/wp-content/themes/caesan/style.css?ver=1.0' type='text/css' media='all' />
+    <script type="text/javascript" src="https://www.caesan.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script type="text/javascript" src="https://www.caesan.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+    <link rel="https://api.w.org/" href="https://www.caesan.com.br/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://www.caesan.com.br/wp-json/wp/v2/pages/18" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.caesan.com.br/xmlrpc.php?rsd" />
+
+    <link rel="canonical" href="https://www.caesan.com.br/" />
+    <link rel='shortlink' href='https://www.caesan.com.br/' />
+    <link rel="alternate" type="application/json+oembed" href="https://www.caesan.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.caesan.com.br%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://www.caesan.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.caesan.com.br%2F&#038;format=xml" />
+    <link rel="Shortcut Icon" type="image/x-icon" href="https://www.caesan.com.br/favicon.ico" />
+    <link rel="icon" href="https://www.caesan.com.br/wp-content/uploads/2023/11/cropped-favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://www.caesan.com.br/wp-content/uploads/2023/11/cropped-favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://www.caesan.com.br/wp-content/uploads/2023/11/cropped-favicon-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://www.caesan.com.br/wp-content/uploads/2023/11/cropped-favicon-270x270.png" />
+    <style>
+        @font-face {
+            font-family: "FiraSans-Bold";
+            src: url('https://www.caesan.com.br/wp-content/themes/caesan/css/fonts/FiraSans-Bold.ttf');
+        }
+
+        @font-face {
+            font-family: "FiraSans-Regular";
+            src: url('https://www.caesan.com.br/wp-content/themes/caesan/css/fonts/FiraSans-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: "FiraSans-Medium";
+            src: url('https://www.caesan.com.br/wp-content/themes/caesan/css/fonts/FiraSans-Medium.ttf');
+        }
+
+        body {
+            background-image: url('https://www.caesan.com.br/wp-content/themes/caesan/img/pattern-bg.png');
+            margin: 0px;
+            font-family: "FiraSans-Regular";
+            background-color: #ffffff;
+        }
+
+        .nav1 {
+            background: url('https://www.caesan.com.br/wp-content/themes/caesan/img/fundo-navbar1.png');
+            height: 50px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #af2828;
+        }
+
+        .nav2 {
+            background: url('https://www.caesan.com.br/wp-content/themes/caesan/img/fundo-navbar2.png');
+            height: 180px;
+        }
+
+        .caesan-menuHeader3 {
+            position: absolute !important;
+            height: 120px;
+            background-color: transparent;
+            z-index: 1;
+            transform: translate(-50%, -50%);
+            left: 50%;
+        }
+
+        .navbar-toggle {
+            position: absolute;
+            right: 20px;
+            margin: 0px !important;
+            padding: 0px !important;
+        }
+
+        .visible-xs {
+            display: none;
+        }
+
+        /* .nav>li {
+      width: 16%;
+    } */
+
+        .caesan-menu {
+            padding: 0px !important;
+            float: left;
+            width: 195px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .imgMenu {
+            height: 36px;
+            position: absolute;
+            top: 25px;
+        }
+
+        .titleMenu {
+            color: #aabdf0;
+            text-align: center;
+            position: relative;
+            top: 20px;
+            margin: 0px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .planosMenu {
+            font-size: 10px;
+            color: #fff;
+        }
+
+        .alignRow {
+            padding: 15px 0px;
+        }
+
+        .alignMenus {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            padding: 25px 0px;
+        }
+
+        .alignMenus a {
+            display: flex;
+            float: left;
+            align-items: center;
+            margin: 0px 5px;
+            text-decoration: none;
+        }
+
+        .alignMenus a>img {
+            height: 34px;
+        }
+
+        .alignMenus a>span {
+            font-size: 12px;
+            color: #fff;
+            margin-left: 10px;
+        }
+
+        .cookies-container {
+            color: #222;
+            position: fixed;
+            width: 100%;
+            bottom: 2rem;
+            z-index: 1000;
+        }
+
+        .cookies-content {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+            background: white;
+            max-width: 520px;
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 0 auto;
+            display: grid;
+            opacity: 0;
+            transform: translateY(1rem);
+            animation: slideUp 0.5s forwards;
+        }
+
+        .cookies-content p {
+            margin: 0px 10px 0px 0px;
+            text-align: justify;
+            font-size: 12px;
+            color: #3a4878;
+        }
+
+        .cookies-pref label {
+            margin-right: 1rem;
+        }
+
+        .cookies-save {
+            grid-column: 2;
+            background: #007cf8;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            padding: 0.8rem 1rem;
+            font-size: 1rem;
+        }
+
+        @keyframes slideUp {
+            to {
+                transform: initial;
+                opacity: initial;
+            }
+        }
+
+        @media (max-width: 1199px) {
+            .caesan-menu {
+                width: 161px;
+            }
+            .logo {
+                height: 75px;
+            }
+            .alignRow {
+                padding: 20px 0px;
+            }
+            .alignMenus {
+                padding: 20px 0px;
+            }
+            .alignMenus a>img {
+                height: 32px;
+            }
+            .alignMenus a>span {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .caesan-menu {
+                width: 125px;
+            }
+            .titleMenu {
+                font-size: 14px;
+            }
+            .planosMenu {
+                font-size: 8px;
+            }
+            .alignRow {
+                padding: 0px;
+            }
+            .logo {
+                height: 58px;
+                display: flex;
+                margin: 10px auto 5px;
+            }
+            .alignMenus {
+                padding: 0px;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .caesan-menu {
+                width: 100%;
+                display: flex !important;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .cookies-content {
+                grid-template-columns: 1fr;
+            }
+            .cookies-save {
+                grid-column: 1;
+                grid-row: 3;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .hidden-xs {
+                display: none;
+            }
+            .visible-xs {
+                display: block;
+            }
+            .navbar-collapse {
+                padding: 0px !important;
+                border-top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cookies-container">
+        <div class="cookies-content">
+            <p>A CAESAN utiliza cookies e outras tecnologias semelhantes para melhorar a sua experiência, de acordo com a nossa Política de Privacidade e ao continuar navegando, você concorda com estas condições.</p>
+            <button class="cookies-save">Concordo</button>
+        </div>
+    </div>
+
+    <div style="position: fixed; margin: 50vh 50%; color: #0067af; z-index: 9999; display: none;" id="loading">
+        <i class="fa fa-spinner fa-pulse fa-5x fa-5x" style="font-size: 50px;"></i>
+        <span class="sr-only">Loading...</span>
+    </div>
+
+    <div class="modal fade" id="alertafalha" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content" style="border-radius: 0px;">
+                <div class="modal-header" style="color: #ffffff; border-top: 1px #af2828 solid !important; background-image: url(https://www.caesan.com.br/wp-content/themes/caesan/img/fundo-navbar2.png);">
+                    <button class="close" type="button" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Falha na conexão!</h4>
+                </div>
+                <div class="modal-body">
+                    <p style="text-align: justify;">Não foi possível conectar aos nossos servidores, verifique sua conexão e tente novamente!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <nav class="navbar navbar-default caesan-fundo-navbar1 hidden-xs hidden-print" style="background-image: url('https://www.caesan.com.br/wp-content/themes/caesan/img/fundo-navbar1.png');">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li><a href="https://www.facebook.com/Caesan-1276447735719966/" target="_blank"><span class="fa fa-facebook"></span></a></li>
+        <li><a><span class="fa fa-instagram"></span></a></li>
+        <li><a style="font-size: 12px;">Av. C com Rua 32, Nº 576 Qd. A-26 Lt. 11 - Jd. Goiás - Goiânia-GO - CEP: 74805-070</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" style="font-size: 12px;">
+        <li><a href="https://www.caesan.com.br/ouvidoria/">OUVIDORIA</a></li>
+      </ul>
+    </div>
+  </nav> -->
+
+    <section class="nav1 hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <a href="https://www.facebook.com/Caesan-1276447735719966/" style="margin-right: 10px;" target="_blank"><span class="fa fa-facebook" style="color: #fff;"></span></a>
+                    <!-- <a><span class="fa fa-instagram"></span></a> -->
+                    <span style="font-size: 12px; color: #fff;">Av. C com Rua 32, Nº 576 Qd. A-26 Lt. 11 - Jd. Goiás - Goiânia-GO - CEP: 74805-070</span>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4" style="text-align: right;">
+                    <a href="https://www.caesan.com.br/ouvidoria/" style="font-size: 12px; color: #fff;">OUVIDORIA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nav2 hidden-xs">
+        <div class="container">
+            <div class="row alignRow">
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <a href="https://www.caesan.com.br/home/">
+            <img class="logo" src="https://www.caesan.com.br/wp-content/themes/caesan/img/logo.png"/>
+          </a>
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-9 alignMenus">
+                    <a>
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_atendimento.png"/>
+            <span>ATENDIMENTO</br><b style="font-size: 16px;">(62) 3267-7300</b></span>
+          </a>
+                    <a href="https://www.caesan.com.br/portal-autorizacoes/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_autorizacoes.png"/>
+            <span>PORTAL DE</br><b style="font-size: 16px;">AUTORIZAÇÕES</b></span>
+          </a>
+                    <a href="https://www.caesan.com.br/portal-beneficiario/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_beneficiario.png"/>
+            <span>PORTAL DO &nbsp; <span style="color: #000;">PIN-SS</span></br><b style="font-size: 16px;">BENEFICIÁRIO</b></span>
+          </a>
+                    <a href="https://www.caesan.com.br/portal-prestador/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_prestador.png"/>
+            <span>PORTAL DO</br><b style="font-size: 16px;">PRESTADOR</b></span>
+          </a>
+                    <a href="https://www.caesan.com.br/portal-gestor/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_prestador.png"/>
+            <span>PORTAL DO</br><b style="font-size: 16px;">GESTOR</b></span>
+          </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="nav2 hidden-xs">
+    <div class="container">
+      <div class="row" style="padding: 10px 0px;">
+        <div class="col-lg-3">
+          <a href="https://www.caesan.com.br/home/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/logo.png"/>
+          </a>
+        </div>
+        <div class="col-lg-9" style="text-align: right;">
+          <a style="padding: 0px 5px;">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/atendimento.png"/>
+          </a>
+          <a  href="https://www.caesan.com.br/portal-autorizacoes/" style="padding: 0px 5px;">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon-autorizacao.png"/>
+          </a>
+          <a  href="https://www.caesan.com.br/portal-beneficiario/" style="padding: 0px 5px;">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/portal-beneficiario.png"/>
+          </a>
+          <a  href="https://www.caesan.com.br/portal-prestador/" style="padding: 0px 5px;">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/portal-prestador.png"/>
+          </a>
+          <a  href="https://www.caesan.com.br/portal-gestor/" style="padding: 0px 5px;">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/portal-gestor.png"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+    <!-- <section>
+    <div class="container">
+      <ul style=" list-style: none; margin: 0px; padding: 0px;">
+        <li style="position: relative; display: block; float: left;">
+          <a class="caesan-menu" href="https://www.caesan.com.br/home/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-home.png" alt=""/>
+          </a>
+        </li>
+        <li style="position: relative; display: block; float: left;">
+          <a class="caesan-menu" href="https://www.caesan.com.br/a-caesan/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-acaesan.png" alt=""/>
+          </a>
+        </li>
+        <li style="position: relative; display: block; float: left;">
+          <a class="caesan-menu" href="https://www.caesan.com.br/guia-medico/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-guiamedico.png" alt=""/>
+          </a>
+        </li>
+        <li style="position: relative; display: block; float: left;">
+          <a class="caesan-menu" href="https://www.caesan.com.br/programas/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-programas.png" alt=""/>
+          </a>
+        </li>
+        <li style="position: relative; display: block; float: left;">
+          <a class="caesan-menu" href="https://www.caesan.com.br/formularios-cadastro/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-formularios.png" alt=""/>
+          </a>
+        </li>
+        <li style="position: relative; display: block; float: left;">
+          <a class="caesan-menu" href="https://www.caesan.com.br/contato/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-contato.png" alt=""/>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section> -->
+
+    <!-- <nav class="navbar navbar-default caesan-fundo-navbar2 hidden-xs hidden-print" style="border-top: 1px #af2828 solid !important; background-image: url('https://www.caesan.com.br/wp-content/themes/caesan/img/fundo-navbar2.png');">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="https://www.caesan.com.br/home/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/logo.png" alt=""/>
+          </a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="caesan-menuHeader2">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/atendimento.png" alt=""/>
+          </a>
+        </li>
+        <li>
+          <a class="caesan-menuHeader2" href="https://www.caesan.com.br/portal-autorizacoes/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon-autorizacao.png" alt=""/>
+          </a>
+        </li>
+        <li>
+          <a class="caesan-menuHeader2" href="https://www.caesan.com.br/portal-beneficiario/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/portal-beneficiario.png" alt=""/>
+          </a>
+        </li>
+        <li>
+          <a class="caesan-menuHeader2" href="https://www.caesan.com.br/portal-prestador/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/portal-prestador.png" alt=""/>
+          </a>
+        </li>
+        <li>
+          <a class="caesan-menuHeader2" href="https://www.caesan.com.br/portal-gestor/">
+            <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/portal-gestor.png" alt=""/>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav> -->
+
+    <nav class="navbar navbar-default caesan-menuHeader3 hidden-xs hidden-print">
+        <div class="container" style="padding: 0px;">
+            <div class="collapse navbar-collapse" style="padding: 0px;">
+                <ul class="nav navbar-nav" style="margin: 0px;">
+                    <a href="https://www.caesan.com.br/home/">
+                        <li class="caesan-menu">
+                            <!-- <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-home.png" alt=""/> -->
+                            <img class="imgMenu" src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_home.png" />
+                            <h5 class="titleMenu">Home</h5>
+                        </li>
+                    </a>
+                    <a href="https://www.caesan.com.br/a-caesan/">
+                        <li class="caesan-menu">
+                            <!-- <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-acaesan.png" alt=""/> -->
+                            <img class="imgMenu" src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_acaesan.png" />
+                            <h5 class="titleMenu">A Caesan</h5>
+                        </li>
+                    </a>
+                    <a href="https://www.caesan.com.br/guia-medico/">
+                        <li class="caesan-menu">
+                            <!-- <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-guiamedico.png" alt=""/> -->
+                            <img class="imgMenu" src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_guiamedico.png" />
+                            <h5 class="titleMenu">Guia Médico</h5>
+                        </li>
+                    </a>
+                    <a href="https://www.caesan.com.br/programas/">
+                        <li class="caesan-menu">
+                            <!-- <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-programas.png" alt=""/> -->
+                            <img class="imgMenu" src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_programas.png" />
+                            <h5 class="titleMenu">Programas</h5>
+                        </li>
+                    </a>
+                    <a href="https://www.caesan.com.br/formularios-cadastro/">
+                        <li class="caesan-menu">
+                            <!-- <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-formularios.png" alt=""/> -->
+                            <img class="imgMenu" src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_formularios.png" />
+                            <h5 class="titleMenu" style="top: 25px;">Formulários<br><span class="planosMenu">PLANOS COMERCIALIZADOS</span></h5>
+                        </li>
+                    </a>
+                    <a href="https://www.caesan.com.br/contato/">
+                        <li class="caesan-menu">
+                            <!-- <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-contato.png" alt=""/> -->
+                            <img class="imgMenu" src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_contato.png" />
+                            <h5 class="titleMenu">Contato</h5>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-default caesan-menuHeader3 hidden-xs hidden-print">
+    <div class="container" style="padding: 0px;">
+      <div class="collapse navbar-collapse" style="padding: 0px;">
+        <ul class="nav navbar-nav" style="margin: 0px;">
+          <li>
+            <a class="caesan-menu" href="https://www.caesan.com.br/home/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-home.png" alt=""/>
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_home.png"/>
+              <h5 style="color: #aabdf0;">Home</h5>
+            </a>
+          </li>
+          <li>
+            <a class="caesan-menu" href="https://www.caesan.com.br/a-caesan/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-acaesan.png" alt=""/>
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_acaesan.png"/>
+              <h5 style="color: #aabdf0;">A Caesan</h5>
+            </a>
+          </li>
+          <li>
+            <a class="caesan-menu" href="https://www.caesan.com.br/guia-medico/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-guiamedico.png" alt=""/>
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_guiamedico.png"/>
+              <h5 style="color: #aabdf0;">Guia Médico</h5>
+            </a>
+          </li>
+          <li>
+            <a class="caesan-menu" href="https://www.caesan.com.br/programas/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-programas.png" alt=""/>
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_programas.png"/>
+              <h5 style="color: #aabdf0;">Programas</h5>
+            </a>
+          </li>
+          <li>
+            <a class="caesan-menu" href="https://www.caesan.com.br/formularios-cadastro/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-formularios.png" alt=""/>
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_formularios.png"/>
+              <h5 style="color: #aabdf0;">Formulários<br><span style="color: #fff;">PLANOS COMERCIALIZADOS</span></h5>
+            </a>
+          </li>
+          <li>
+            <a class="caesan-menu" href="https://www.caesan.com.br/contato/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/menu-contato.png" alt=""/>
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_contato.png"/>
+              <h5 style="color: #aabdf0;">Contato</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+    <nav class="navbar navbar-default visible-xs">
+        <div class="navbar-header" style="background-image: url('https://www.caesan.com.br/wp-content/themes/caesan/img/navbar-collapsed.png'); background-size: cover; height: 100px; display: flex; align-items: center;">
+            <a href="https://www.caesan.com.br/home/" style="margin-left: 15px;">
+        <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/logo.png" alt=""/>
+      </a>
+            <button class="navbar-toggle collapsed" style="border: none;" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="fa fa-bars hidden-print" style="font-size: 30px; color: #fff;"></span>
+      </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav">
+                <li>
+                    <a class="caesan-menu" href="https://www.caesan.com.br/home/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_home.png" style="margin-right: 10px;"/>
+              <span>Home</span>
+            </a>
+                </li>
+                <li>
+                    <a class="caesan-menu" href="https://www.caesan.com.br/a-caesan/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_acaesan.png" style="margin-right: 10px;"/>
+              <span>A Caesan</span>
+            </a>
+                </li>
+                <li>
+                    <a class="caesan-menu" href="https://www.caesan.com.br/guia-medico/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_guiamedico.png" style="margin-right: 10px;"/>
+              <span>Guia Médico</span>
+            </a>
+                </li>
+                <li>
+                    <a class="caesan-menu" href="https://www.caesan.com.br/programas/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_programas.png" style="margin-right: 10px;"/>
+              <span>Programas</span>
+            </a>
+                </li>
+                <li>
+                    <a class="caesan-menu" href="https://www.caesan.com.br/formularios-cadastro/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_formularios.png" style="margin-right: 10px;"/>
+              <span>Formulários</span>
+            </a>
+                </li>
+                <li>
+                    <a class="caesan-menu" href="https://www.caesan.com.br/contato/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_contato.png" style="margin-right: 10px;"/>
+              <span>Contato</span>
+            </a>
+                </li>
+                <li>
+                    <a class="caesan-menu" href="https://www.caesan.com.br/portal-autorizacoes/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_autorizacoes.png" style="margin-right: 10px;"/>
+              <span>Portal de autorizações</span>
+            </a>
+                </li>
+                <li>
+                    <a class="caesan-menu" href="https://www.caesan.com.br/portal-beneficiario/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_beneficiario.png" style="margin-right: 10px;"/>
+              <span>Portal do beneficiário</span>
+            </a>
+                </li>
+                <li>
+                    <a class="caesan-menu" href="https://www.caesan.com.br/portal-prestador/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_prestador.png" style="margin-right: 10px;"/>
+              <span>Portal do prestador</span>
+            </a>
+                </li>
+                <li>
+                    <a class="caesan-menu" href="https://www.caesan.com.br/portal-gestor/">
+              <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_prestador.png" style="margin-right: 10px;"/>
+              <span>Portal do gestor</span>
+            </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <script>
+  var webservice = 'wscaesanbean-env.eba-xvvdsprt.sa-east-1.elasticbeanstalk.com';
+</script> -->
+
+    <style>
+        .registro {
+            background: url("https://www.caesan.com.br/wp-content/themes/caesan/img/bnrRegistro.png");
+            height: 100px;
+            display: flex;
+            align-items: center;
+        }
+
+        .title {
+            font-family: firasans-bold;
+            font-size: 20px;
+            color: #334171;
+            margin: 0px;
+        }
+
+        .black {
+            float: right;
+            background: black;
+            padding: 5px 15px;
+        }
+
+        .black p {
+            margin: 0px;
+            color: white;
+        }
+
+        .red {
+            background-color: #d43434;
+            padding: 10px 20px;
+            width: 175px;
+        }
+
+        .red p {
+            font-size: 18px;
+            margin: 0px;
+            color: white;
+        }
+
+        .latest {
+            text-decoration: underline;
+            color: #d43434;
+            float: right;
+            font-size: 18px;
+        }
+
+        .latest:focus,
+        .latest:hover {
+            color: #d43434;
+        }
+
+        @media (max-width: 991px) {
+            .title {
+                text-align: center;
+            }
+            .centerRegistro {
+                display: flex;
+                justify-content: center;
+                margin-top: 5px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .title {
+                font-size: 14px;
+            }
+            .black p {
+                font-size: 10px;
+            }
+        }
+    </style>
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" ng-non-bindable>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="http://www.caesan.com.br/wp-content/uploads/2024/11/proclamacao.pdf"><img src="https://www.caesan.com.br/wp-content/uploads/2024/11/banner-1.jpg" alt="Proclamação dos Eleitos"></a> </div>
+            <div class="item ">
+                <a href="https://eleicoes.bios.inf.br/downloads/eleitos.pdf"><img src="https://www.caesan.com.br/wp-content/uploads/2024/11/banner.jpg" alt="Eleições Caesan"></a> </div>
+            <div class="item ">
+                <a href="https://www.caesan.com.br/exame-de-psa/"><img src="https://www.caesan.com.br/wp-content/uploads/2024/11/Novembro-Azul-2024-Calendario-PSA-BANNER-G.jpg" alt="Exame de PSA"></a> </div>
+            <div class="item ">
+                <a href="https://www.caesan.com.br/saude-em-movimento-novembro/"><img src="https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-Saude-em-Movimento-2024-NOVEMBRO.jpg" alt="Saúde em Movimento &#8211; NOVEMBRO"></a> </div>
+            <div class="item ">
+                <a href="https://www.caesan.com.br/outubro-rosa-2024/"><img src="https://www.caesan.com.br/wp-content/uploads/2024/09/Outubro-Rosa-2024-Banner-g.jpg" alt="Outubro Rosa 2024"></a> </div>
+            <div class="item ">
+                <a href="https://www.caesan.com.br/inscricoes-programas/"><img src="https://www.caesan.com.br/wp-content/uploads/2024/09/Outubro-Rosa-e-Novembro-Azul-2024-Evento-banner-g.jpg" alt="Evento Outubro Rosa e Novembro Azul"></a> </div>
+            <div class="item ">
+                <a href="http://www.caesan.com.br/desconto-fator-moderador/"><img src="https://www.caesan.com.br/wp-content/uploads/2023/12/Caesan-Desconto-fator-moderador-banner-g.jpg" alt="Desconto Fator Moderador"></a> </div>
+            <div class="item ">
+                <a href="http://www.caesan.com.br/utilize-o-cartao-caesan/"><img src="https://www.caesan.com.br/wp-content/uploads/2023/11/bnrFortalecimento.jpg" alt="Utilize o Cartão Caesan"></a> </div>
+            <div class="item ">
+                <img src="https://www.caesan.com.br/wp-content/uploads/2023/11/bnrBoletos.jpg" alt="Fique atento!"> </div>
+            <div class="item ">
+                <img src="https://www.caesan.com.br/wp-content/uploads/2023/11/bnrSaude.jpg" alt="Aplicativo de Telemedicina (NAV)"> </div>
+            <div class="item ">
+                <img src="https://www.caesan.com.br/wp-content/uploads/2023/11/bnrPrivacidade.jpg" alt="Política de Privacidade e Proteção de Dados da CAESAN"> </div>
+            <div class="item ">
+                <img src="https://www.caesan.com.br/wp-content/uploads/2023/11/bnrApp.jpg" alt="Aplicativo CAESAN"> </div>
+        </div>
+
+        <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a> -->
+    </div>
+
+    <section class="registro">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <p class="title"><b>CAIXA DE ASSISTÊNCIA DOS EMPREGADOS DA SANEAGO - CAESAN</b></p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 centerRegistro">
+                    <section class="black">
+                        <p><b>REGISTRO ANS N° 363855</b></p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section ng-controller="PostCtrl">
+        <div class="container">
+            <div class="row" style="display: flex; align-items: center; margin: 30px 0px;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <section class="red">
+                        <p>Últimas Notícias</p>
+                    </section>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a class="latest" href="https://www.caesan.com.br/ultimas-noticias/"><b>Ver todas as notícias</b></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 20px;">
+                    <section style="background: #fff;">
+                        <a href="https://www.caesan.com.br/ata-de-posse/" style="margin: 0px auto; display: table;">
+                <img width="1024" height="240" src="https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-EDITAL-CONVOCACAO-1024x240.jpg" class="img-responsive wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-EDITAL-CONVOCACAO-1024x240.jpg 1024w, https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-EDITAL-CONVOCACAO-300x70.jpg 300w, https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-EDITAL-CONVOCACAO-768x180.jpg 768w, https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-EDITAL-CONVOCACAO-1536x360.jpg 1536w, https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-EDITAL-CONVOCACAO.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />              </a>
+                        <section style="padding: 0px 20px 20px;">
+                            <!-- <p style="margin: 0px; font-size: 12px; text-align: right; color: #d43434;">novembro 7, 2024</p> -->
+                            <h2 style="margin: 10px 0px; font-size: 16px;"><b>Edital de Convocação</b></h2>
+                            <!-- <p><p>Confira o Edital de Convocação</p>
+</p> -->
+                            <a class="btn" href="https://www.caesan.com.br/ata-de-posse/" style="background: #d43434; color: white; padding: 5px 10px;"><b>Continue lendo</b></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 20px;">
+                    <section style="background: #fff;">
+                        <a href="https://www.caesan.com.br/substituicao-de-prestador/" style="margin: 0px auto; display: table;">
+                <img width="1024" height="240" src="https://www.caesan.com.br/wp-content/uploads/2024/11/banner-g-substituicao-de-rede-1024x240.jpg" class="img-responsive wp-post-image" alt="" decoding="async" srcset="https://www.caesan.com.br/wp-content/uploads/2024/11/banner-g-substituicao-de-rede-1024x240.jpg 1024w, https://www.caesan.com.br/wp-content/uploads/2024/11/banner-g-substituicao-de-rede-300x70.jpg 300w, https://www.caesan.com.br/wp-content/uploads/2024/11/banner-g-substituicao-de-rede-768x180.jpg 768w, https://www.caesan.com.br/wp-content/uploads/2024/11/banner-g-substituicao-de-rede-1536x360.jpg 1536w, https://www.caesan.com.br/wp-content/uploads/2024/11/banner-g-substituicao-de-rede.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />              </a>
+                        <section style="padding: 0px 20px 20px;">
+                            <!-- <p style="margin: 0px; font-size: 12px; text-align: right; color: #d43434;">novembro 4, 2024</p> -->
+                            <h2 style="margin: 10px 0px; font-size: 16px;"><b>Substituição de Prestador &#8211; Terapias Convencionais e Especiais</b></h2>
+                            <!-- <p><p>Informamos que, conforme solicitado pelo prestador, o contrato com a Reintegrar Espaço de Saúde foi encerrado em 31 de outubro de 2024. Estamos comprometidos em oferecer o melhor atendimento e garantir a qualidade dos serviços de saúde aos nossos beneficiários. Para isso, apresentamos abaixo nossa rede credenciada, que está pronta para prestar o suporte necessário: &nbsp; TERAPIAS ESPECIAIS &nbsp; EVOLUIR CENTRO DE DESENVOLVIMENTO INFANTIL (62) 3624-1848 / (62) 99608-2506 RUA 134 &#8211; N 92 QD F-29, Lt. 22 &#8211; SETOR SUL &#8211; GOIÂNIA-GO Especialidades: Fisioterapia, Fonoaudiologia, Musicoterapia, Psicologia, Psicomotricidade, Psicopedagogia e Terapia Ocupacional. &nbsp; &nbsp; NINAR GOIÂNIA (62) 98322-1122 AV 136 [&hellip;]</p>
+</p> -->
+                            <a class="btn" href="https://www.caesan.com.br/substituicao-de-prestador/" style="background: #d43434; color: white; padding: 5px 10px;"><b>Continue lendo</b></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 20px;">
+                    <section style="background: #fff;">
+                        <a href="https://www.caesan.com.br/exame-de-psa/" style="margin: 0px auto; display: table;">
+                <img width="1024" height="240" src="https://www.caesan.com.br/wp-content/uploads/2024/11/Novembro-Azul-2024-Calendario-PSA-BANNER-G-1024x240.jpg" class="img-responsive wp-post-image" alt="" decoding="async" srcset="https://www.caesan.com.br/wp-content/uploads/2024/11/Novembro-Azul-2024-Calendario-PSA-BANNER-G-1024x240.jpg 1024w, https://www.caesan.com.br/wp-content/uploads/2024/11/Novembro-Azul-2024-Calendario-PSA-BANNER-G-300x70.jpg 300w, https://www.caesan.com.br/wp-content/uploads/2024/11/Novembro-Azul-2024-Calendario-PSA-BANNER-G-768x180.jpg 768w, https://www.caesan.com.br/wp-content/uploads/2024/11/Novembro-Azul-2024-Calendario-PSA-BANNER-G-1536x360.jpg 1536w, https://www.caesan.com.br/wp-content/uploads/2024/11/Novembro-Azul-2024-Calendario-PSA-BANNER-G.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />              </a>
+                        <section style="padding: 0px 20px 20px;">
+                            <!-- <p style="margin: 0px; font-size: 12px; text-align: right; color: #d43434;">novembro 1, 2024</p> -->
+                            <h2 style="margin: 10px 0px; font-size: 16px;"><b>Exame de PSA</b></h2>
+                            <!-- <p></p> -->
+                            <a class="btn" href="https://www.caesan.com.br/exame-de-psa/" style="background: #d43434; color: white; padding: 5px 10px;"><b>Continue lendo</b></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 20px;">
+                    <section style="background: #fff;">
+                        <a href="https://www.caesan.com.br/saude-em-movimento-novembro/" style="margin: 0px auto; display: table;">
+                <img width="1024" height="240" src="https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-Saude-em-Movimento-2024-NOVEMBRO-1024x240.jpg" class="img-responsive wp-post-image" alt="" decoding="async" srcset="https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-Saude-em-Movimento-2024-NOVEMBRO-1024x240.jpg 1024w, https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-Saude-em-Movimento-2024-NOVEMBRO-300x70.jpg 300w, https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-Saude-em-Movimento-2024-NOVEMBRO-768x180.jpg 768w, https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-Saude-em-Movimento-2024-NOVEMBRO-1536x360.jpg 1536w, https://www.caesan.com.br/wp-content/uploads/2024/11/Banner-Saude-em-Movimento-2024-NOVEMBRO.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />              </a>
+                        <section style="padding: 0px 20px 20px;">
+                            <!-- <p style="margin: 0px; font-size: 12px; text-align: right; color: #d43434;"></p> -->
+                            <h2 style="margin: 10px 0px; font-size: 16px;"><b>Saúde em Movimento &#8211; NOVEMBRO</b></h2>
+                            <!-- <p></p> -->
+                            <a class="btn" href="https://www.caesan.com.br/saude-em-movimento-novembro/" style="background: #d43434; color: white; padding: 5px 10px;"><b>Continue lendo</b></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 20px;">
+                    <section style="background: #fff;">
+                        <a href="https://www.caesan.com.br/outubro-rosa-2024/" style="margin: 0px auto; display: table;">
+                <img width="1024" height="240" src="https://www.caesan.com.br/wp-content/uploads/2024/09/Outubro-Rosa-2024-Banner-g-1024x240.jpg" class="img-responsive wp-post-image" alt="" decoding="async" srcset="https://www.caesan.com.br/wp-content/uploads/2024/09/Outubro-Rosa-2024-Banner-g-1024x240.jpg 1024w, https://www.caesan.com.br/wp-content/uploads/2024/09/Outubro-Rosa-2024-Banner-g-300x70.jpg 300w, https://www.caesan.com.br/wp-content/uploads/2024/09/Outubro-Rosa-2024-Banner-g-768x180.jpg 768w, https://www.caesan.com.br/wp-content/uploads/2024/09/Outubro-Rosa-2024-Banner-g-1536x360.jpg 1536w, https://www.caesan.com.br/wp-content/uploads/2024/09/Outubro-Rosa-2024-Banner-g.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />              </a>
+                        <section style="padding: 0px 20px 20px;">
+                            <!-- <p style="margin: 0px; font-size: 12px; text-align: right; color: #d43434;">setembro 18, 2024</p> -->
+                            <h2 style="margin: 10px 0px; font-size: 16px;"><b>Outubro Rosa 2024</b></h2>
+                            <!-- <p></p> -->
+                            <a class="btn" href="https://www.caesan.com.br/outubro-rosa-2024/" style="background: #d43434; color: white; padding: 5px 10px;"><b>Continue lendo</b></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 20px;">
+                    <section style="background: #fff;">
+                        <a href="https://www.caesan.com.br/novembroazul/" style="margin: 0px auto; display: table;">
+                <img width="1000" height="342" src="https://www.caesan.com.br/wp-content/uploads/2024/09/Novembro-Azul-2024-Banner-prestadores.jpg" class="img-responsive wp-post-image" alt="" decoding="async" srcset="https://www.caesan.com.br/wp-content/uploads/2024/09/Novembro-Azul-2024-Banner-prestadores.jpg 1000w, https://www.caesan.com.br/wp-content/uploads/2024/09/Novembro-Azul-2024-Banner-prestadores-300x103.jpg 300w, https://www.caesan.com.br/wp-content/uploads/2024/09/Novembro-Azul-2024-Banner-prestadores-768x263.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />              </a>
+                        <section style="padding: 0px 20px 20px;">
+                            <!-- <p style="margin: 0px; font-size: 12px; text-align: right; color: #d43434;">setembro 16, 2024</p> -->
+                            <h2 style="margin: 10px 0px; font-size: 16px;"><b>Lista de Prestadores Novembro Azul</b></h2>
+                            <!-- <p><p>&nbsp; Segue abaixo lista de prestadores da Caesan para realização do PSA: Dúvidas: Serviço Social 62. 3267-7307 / 3267-7308 / 99273-5895 (whatsapp) O programa Novembro Azul é destinado aos beneficiários da Caesan com idade igual ou superior a 40 anos. UTILIZAR O CARTÃO CAESAN &nbsp; AGUAS LINDAS DE GOIAS CENTRO DIAGNOSTICO BELLE QUADRA 109 CONJUNTO B N 04 Parque da Barragem Setor 10 (61) 3613-8699 / 98626-0659 LABORCLIM AV BRASILIA &#8211; QD 72 B LT 40 SL 01 PQ DA BARRAGEM (61) 3613 8397 / 98668 -2986 ANAPOLIS LAB SABIN DE ANALISE CLI EM ANAPOLIS (UNIDADES) AV DIVINO PAI ETERNO [&hellip;]</p>
+</p> -->
+                            <a class="btn" href="https://www.caesan.com.br/novembroazul/" style="background: #d43434; color: white; padding: 5px 10px;"><b>Continue lendo</b></a>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        var webservice = 'wscaesanbean-env.eba-xvvdsprt.sa-east-1.elasticbeanstalk.com';
+        var webserviceBios = 'ws1.bios.inf.br';
+    </script>
+
+    <style>
+        .left {
+            float: left;
+            list-style: none;
+            display: flex;
+            padding: 0px;
+            align-items: center;
+            margin: 0px;
+        }
+
+        .right {
+            float: right;
+            display: flex;
+            align-items: center;
+            list-style: none;
+            margin: 0px;
+        }
+
+        .alignContainer {
+            display: flex;
+            align-items: center;
+        }
+
+        .align {
+            display: flex;
+            align-items: center;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .menu {
+            display: flex;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .menu img {
+            height: 34px;
+            margin-right: 10px;
+        }
+
+        .menu span {
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .idss {
+            margin: 0px;
+        }
+
+        .inputNewsletter {
+            padding: 10px;
+            height: 40px;
+            border-radius: 20px;
+        }
+
+        @media (max-width: 1199px) {
+            .left {
+                float: none;
+                justify-content: center;
+            }
+            .right {
+                float: none;
+                justify-content: center;
+            }
+            .menu {
+                margin-right: 15px;
+            }
+            .menu img {
+                height: 28px;
+            }
+            .menu span {
+                color: #fff;
+                font-size: 10px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .alignContainer {
+                display: block;
+            }
+            .align {
+                justify-content: center;
+                margin: 25px 0px;
+            }
+            .menu img {
+                height: 30px;
+            }
+            .menu span {
+                color: #fff;
+                font-size: 12px;
+            }
+            .inputNewsletter {
+                padding: 10px;
+                height: 40px;
+                border-radius: 20px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .align {
+                display: grid;
+                margin: 20px 0px;
+                gap: 15px;
+            }
+            .idss {
+                margin: 0px auto;
+            }
+        }
+    </style>
+
+    <div class="modal fade" id="alertaNewsLetterS" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content" style="border-radius: 0px;">
+                <div class="modal-header" style="color: #fff; border-top: 1px #af2828 solid !important; background-image: url(https://www.caesan.com.br/wp-content/themes/caesan/img/fundo-navbar2.png);">
+                    <button class="close" type="button" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Sucesso</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">Obrigado! Agora você receberá nossas newsletters.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="alertaNewsLetterE" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content" style="border-radius: 0px;">
+                <div class="modal-header" style="color: #fff; border-top: 1px #af2828 solid !important; background-image: url(https://www.caesan.com.br/wp-content/themes/caesan/img/fundo-navbar2.png);">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Erro</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Erro na gravação dos dados.<br> Tente novamente mais tarde!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container hidden-print" style="position: relative; z-index: 3; top: 40px">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
+            <!-- <a href="http://www.caesan.com.br/politica-de-privacidade-e-protecao-de-dados-da-caesan/"> -->
+            <a href="https://www.caesan.com.br/politica-privacidade/">
+      <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/politica-privacidade.png" style="width: 100%; max-width: 360px;"/>
+    </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
+            <a href="http://www.caesan.com.br/suporte-on-line/">
+      <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/suporte-online.png" style="width: 100%; max-width: 360px;"> 
+    </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
+            <a href="http://www.ans.gov.br/" target="_blank">
+      <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/minibanner-ans.png" style="width: 100%; max-width: 360px;"/>
+    </a>
+        </div>
+    </div>
+
+    <footer ng-controller="Contato" style="background-color: #334170; height: auto; padding: 40px 0px 0px;">
+        <div class="container alignContainer">
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 align">
+                <a class="menu">
+        <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_atendimento-footer.png" alt="icone-atendimento">
+        <span><b>ATENDIMENTO</br>(62) 3267-7300</b></span>
+      </a>
+                <a class="menu" href="https://www.caesan.com.br/portal-beneficiario/">
+        <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_beneficiario-footer.png" alt="icone-beneficiario">
+        <span><b>PORTAL DO &nbsp; <span style="color: #000;">PIN-SS</span></br>BENEFICIÁRIO</b></span>
+      </a>
+                <a class="menu" href="https://www.caesan.com.br/portal-prestador/">
+        <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_prestador-footer.png" alt="icone-prestador">
+        <span><b>PORTAL DO</br>PRESTADOR</b></span>
+      </a>
+                <a class="menu" href="https://www.caesan.com.br/portal-gestor/">
+        <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_prestador-footer.png" alt="icone-gestor">
+        <span><b>PORTAL DO</br>GESTOR</b></span>
+      </a>
+                <a class="menu idss" href="https://www.caesan.com.br/idss/">
+        <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/idss-icon.png" alt="idss-caesan"/>
+      </a>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                <input class="form-control inputNewsletter" ng-model="newsletter" placeholder="Cadastrar Newsletter" type="email" />
+                <img ng-click="gravarNewsLetter()" src="https://www.caesan.com.br/wp-content/themes/caesan/img/icon_newsletter.png" style="cursor: pointer; height: 34px; z-index: 1; position: absolute; top: 3px; right: 18px;" alt="" />
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-1 center">
+                <a href="http://www.grupobios.com.br" target="_blank">
+        <img src="https://www.caesan.com.br/wp-content/themes/caesan/img/logo-bios.png" style="height: 85px;" alt=""/>
+      </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/webshim/1.14.5/polyfiller.js"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/angular.min.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/jquery-1.12.4.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/jquery-ui.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/jquery.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/cookies.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/ui-bootstrap-tpls-0.12.1.min.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/angular-sanitize.min.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/md5.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/angular-locale_pt-br.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/angular-base64-upload.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/datepicker.min.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/js/mask.mim.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/app.js" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/aCaesanCtrl.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrLogin.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrVacina.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrDesenvolvimento.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrSolicitacoesAutorizadas.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrSpSadt.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrInternacoes.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrConsultaMedica.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrProrrogInternacoes.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrConsultaDeAutorizacao.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrSolicitacoesNegadas.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrSolicitacoesPendentes.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrFaturas.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrConsultaTUSS.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrElegibilidade.js?id=14" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrGerarHashMensagem.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrEnviarArquivoTISS.js?id=12" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrDoadoresSangue.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrCalculoIMC.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrExclusaoBeneficiario.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrAlterarEndereco.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrBoletosEmitidos.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrDeclaracaoIR.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrExamesSaude.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrExtratoUtilizacoes.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrProgramasCaesan.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrContato.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrPost.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrFormulariosCadastro.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrTeste.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrProcedimento.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrInscProgramasCaesan.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrGuiasAutorizadas.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrGuiasAutorizadasDev.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrAnaliseTecnica.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrAutorizadorDev.js?id=18" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrFaturamentoEletronico.js?id=12" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrPortalBeneficiario.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrFaturamentosEnviados.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrGestor.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrPost.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrVisualizarAnexosGuias.js?id=11" type="text/javascript"></script>
+    <script src="https://www.caesan.com.br/wp-content/themes/caesan/app/controllers/ctrGuiaMedico.js?id=11" type="text/javascript"></script>
+
+    <script>
+        webshims.setOptions('forms-ext', {
+            types: 'date'
+        });
+        webshims.polyfill('forms forms-ext');
+        // Esse valor abaixo deve ser sempre true para evitar conflito com o jQuery
+        webshims.cfg.no$Switch = true
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+.div-loader-out {
+    position: fixed;
+    left: 50%;
+    z-index: 10;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+
+.div-loader-in {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spinner {
+    -webkit-animation: rotate 2s linear infinite;
+    animation: rotate 2s linear infinite;
+}
+
+.circle {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    stroke-linecap: round;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+    }
+    100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124px;
+    }
+}
+
+@keyframes color {
+    100%,
+    0% {
+        stroke: #d00303;
+    }
+    40% {
+        stroke: #ca2828;
+    }
+    66% {
+        stroke: #c74848;
+    }
+    80%,
+    90% {
+        stroke: #d88282;
+    }
+}
+
+/*svg{
+    stroke:#e51c23;
+}*/

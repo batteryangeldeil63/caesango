@@ -1,0 +1,121 @@
+/*
+  Theme Name: Caesan
+  Theme URI: 
+  Author: GrupoBios
+  Author URI: https://www.grupobios.com.br/
+  Description: Theme for Caesan's website
+  Version: 1.0
+*/
+
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 5px;
+    color: #fff7f7 !important;
+}
+
+textarea:hover,
+textarea:active,
+textarea:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.navbar-nav {
+    margin: 0px -15px 0px -15px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #d43434;
+}
+
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+    max-height: none;
+}
+
+.checkbox label,
+.radio label {
+    min-height: 20px;
+    padding-left: 0px;
+}
+
+.panel-heading {
+    padding: 20px 15px;
+    color: #fff !important;
+}
+
+.panel-group {
+    margin-bottom: 0px;
+}
+
+.panel-default>.panel-heading {
+    border-color: #e3f1f4;
+    border-width: 1px;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: #337ab7;
+    background-color: transparent;
+}
+
+.navbar-toggle {
+    padding: 9px 10px 0px 10px;
+}
+
+.navbar-nav {
+    margin: 0px -15px 0px 0px;
+}
+
+.formularioInvalido {
+    border: 1px #d43434 solid !important;
+}
+
+.ws-popover-opener {
+    margin: 0 0 0 -4px;
+}
+
+@media (max-width: 767px) {
+    .nav>li>a {
+        color: #337ab7 !important;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #337ab7;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #337ab7;
+        background-color: transparent;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+    .navbar-nav {
+        margin: 0px -15px 0px -15px;
+    }
+}
